@@ -1,0 +1,104 @@
+html {
+  background-color: gray;
+  background-size: 3px;
+  font-family: Arial, sans-serif;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  .wrapper {
+    margin: 100px auto;
+  }
+
+  h2 {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+  }
+
+  input {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .form {
+    max-width: 420px;
+    margin: 50px auto;
+  }
+  
+  input.search {
+    margin: 0;
+    
+    outline: 0;
+    border: 1px solid black;
+    width: 50%;
+    
+    left: 25%;
+    position: relative;
+    z-index: 2;
+    
+    font-size: 40px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.19);
+  }
+  
+  .options {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    
+  
+  }
+  
+  .options li {
+    position: relative;
+    left: 25%;
+    background: white;
+    border: 1px solid black;
+    width: 50.25%;
+    list-style: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+    margin: 0;
+    padding: 18px;
+    text-transform: capitalize;
+  }
+
+  .options li:hover {
+    background: #65CDF9;
+  }
+  
+  .container {
+    margin-top: 100px;
+  }
+
+  .chosen {
+    height: 80px;
+    border: 1px solid black;
+    position: relative;
+    left: 40%;
+    background: #E27BEB;
+    text-align: left;
+    width: 500px;
+    padding-top: 20px;
+   
+    padding-left: 20px;
+  }
+
+  .btn-close {
+    position: relative;
+    left: 1200px;
+    bottom: 75px;
+    background-repeat: no-repeat;
+    background-image: url("cross.png");
+    background-color: transparent;
+    background-size: contain;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 42px;
+    height: 38.5px;
+    right: 10px;
+}
